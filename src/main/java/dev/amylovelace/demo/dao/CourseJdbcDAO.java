@@ -66,7 +66,7 @@ public class CourseJdbcDAO implements DAO<Course>{
     @Override
     public void update(Course course, int id) {
         String sql = "UPDATE course SET title = ?, description = ?, link = ? WHERE courseId = ?";
-        int update = jdbcTemplate.update(sql,course.getTitle(),course.getDescription(),course.getLink());
+        int update = jdbcTemplate.update(sql, course.getTitle(), course.getDescription(), course.getLink(), id);
         if(update == 1){
             log.info("successfully updated course" + course.getTitle());
         }
@@ -74,6 +74,6 @@ public class CourseJdbcDAO implements DAO<Course>{
 
     @Override
     public void delete(int id) {
-       jdbcTemplate.update("delete from courses where courseId = ?", id);
+       jdbcTemplate.update("DELETE FROM course where courseId = ?", id);
     }
 }

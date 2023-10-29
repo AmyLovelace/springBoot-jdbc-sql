@@ -35,7 +35,7 @@ public class DemoApplication {
 		javaCourse.setDescription("Java de cero a experto");
 		dao.update(javaCourse, 75);
 
-		//dao.delete(25);
+		dao.delete(81);
 
 	}
 
