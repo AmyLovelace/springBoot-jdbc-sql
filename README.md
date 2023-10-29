@@ -26,7 +26,7 @@ These instructions will help you set up and run the project on your local machin
 
 1. Clone the repository:
 
-git@github.com:AmyLovelace/springBoot-jdbc-sql.git
+git clone git@github.com:AmyLovelace/springBoot-jdbc-sql.git
 
 2. Open the project in IntelliJ IDEA.
 
