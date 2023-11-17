@@ -37,3 +37,10 @@ out/
 .vscode/
 aplication.properties
 test/*
+.DS_Store
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/dev/.DS_Store
+src/main/java/dev/amylovelace/.DS_Store
+src/main/java/dev/amylovelace/demo/.DS_Store
